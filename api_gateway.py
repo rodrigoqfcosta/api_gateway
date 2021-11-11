@@ -40,7 +40,8 @@ def persistenceBD(tipo_oper, operacao, args):
     res = requests.post('http://localhost:5003/cadastrar', json=parameters)
 
     if res.status_code == 200:
-        print('Success!')
+        print('Persistence Success!')
+
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5004)
