@@ -1,7 +1,7 @@
-# API_Gateway
+# Microsserviço Gateway de Serviços
 ### Repositório exclusivo para API Gateway
 
-O API Gateway ou Gateway de Serviços, é o cara que chama so serviços que podem estar instalados em mais de uma maquina até mesmo com tecnologias diferentes, 
+O API Gateway ou Gateway de Serviços, é responsável por chamar outros serviços que podem estar instalados em máquinas diferentes e, até mesmo com tecnologias diferentes, 
 sendo um ponto único de entrada para os sistemas que se comunicam com os serviços.
 
 ### INICIALIZANDO API:
